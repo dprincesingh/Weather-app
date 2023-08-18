@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#container{
+    width: 500px;
+    height: min-content;
+    background-color: white;
+    border-radius: 10px;
+    padding: 28px;
+    
+}
+#header{
+    width: 100%;
+    height: min-content;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    width: 85%;
+    font-size: 3vh;
+    text-transform: capitalize;
+    color: black;
+    background-color: #36f5fb;
+    padding: 15px 10px 15px;
+    border-radius: 15px;
+
+}
+button{
+    height: 50px;
+    width: 50px;
+    background-color: #e6f5fb;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 5vh;
+}
+button:hover{
+    color: white;
+    background-color: grey;
+}
+#weatherbody{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+img{
+    width: 60%;
+    
+}
+
+#weather-box{
+    margin-top: 20px;
+    text-align: center;
+}
+#temp{
+    font-size: 10vh ;
+    font-weight: 600;
+}
+#description{
+    text-transform: capitalize;
+    font-size: 3vh;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#weatherdetails {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#locationnotfound{
+    margin-top: 20px;
+    width: 80%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+h1{
+    font-size: 20px;
+    color: grey;
+    
+}
+
+  
